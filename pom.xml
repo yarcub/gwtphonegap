@@ -19,7 +19,7 @@
 	<description>A GWT Wrapper for the PhoneGap Javascript Library</description>
 
 	<properties>
-		<gwtversion>2.6.1</gwtversion>
+		<gwtversion>2.7.0-SNAPSHOT</gwtversion>
 	</properties>
 
 	<licenses>
@@ -43,6 +43,15 @@
 		<connection>scm:git:https://code.google.com/p/gwt-phonegap/</connection>
 		<developerConnection>scm:git:https://code.google.com/p/gwt-phonegap/</developerConnection>
 	</scm>
+	
+	<repositories> 
+	    <repository> 
+	        <id>gwt-sonatype-snapshots</id>
+	        <url>https://oss.sonatype.org/content/repositories/google-snapshots/</url> 
+	        <snapshots><enabled>true</enabled></snapshots> 
+	        <releases><enabled>false</enabled></releases> 
+	    </repository> 
+	</repositories>
 
 	<build>
 		<plugins>
